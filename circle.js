@@ -6,7 +6,7 @@
 // Date: 2014-12-13
 // Update: 2014-12-13
 // Breath function: http://sean.voisen.org/blog/2011/10/breathing-led-with-arduino/ 
-// copyleft: ()) z@zjhou.com
+// copyleft: ()) zjhou
 //-----------------------------------
 
 var start = ms();
