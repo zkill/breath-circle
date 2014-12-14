@@ -59,7 +59,6 @@ function breath(){
     var size = breathLevel(((ms() - start))/1000*(Math.PI/2), 100, 120);
     var opac = breathLevel(((ms() - start))/1000*(Math.PI/2), 1, 0);
     
-    console.log(opac);
     breath_circle(ctx, size, opac);
     breath_inner_circle(ctx, size);
     breath_inner_circle1(ctx, size);
