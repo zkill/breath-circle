@@ -54,7 +54,7 @@ function breath(){
     var ctx = canvas.getContext('2d');
     ctx.clearRect(0, 0, 500, 500);
     
-    var size = breathLevel(((ms() - start))/1000*(Math.PI/2), 100, 120);
+    var size = breathLevel(((ms() - start))/1000*(Math.PI/2), 100, 110);
     var opac = breathLevel(((ms() - start))/1000*(Math.PI/2), 1, 0);
     
     console.log(opac);
@@ -64,4 +64,3 @@ function breath(){
 }
 
 setInterval(breath, 10)
-breath();
