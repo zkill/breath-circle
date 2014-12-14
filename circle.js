@@ -66,4 +66,3 @@ function breath(){
 }
 
 setInterval(breath, 10)
-breath();
